@@ -1,0 +1,528 @@
+
+#HTML 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container">
+            <a class="navbar-brand logo" href="#"> Venkatesh Shyamala</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav m-auto">
+                    <a class="nav-link active" href="#Home">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#about Me">About Me</a>
+                    <a class="nav-link" href="#Education">Education</a>
+                    <a class="nav-link" href="#Technical Skills">Technical Skills</a>
+                    <a class="nav-link" href="#PortFolio">PortFolio</a>
+                    <a class="nav-link" href="#Services">Services</a>
+                    <a class="nav-link" href="#Testimonials">Testimonials</a>
+                    <a class="nav-link" href="#Footer section">Footer Section</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center">
+        <div class="container" id="Home">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img src="https://t4.ftcdn.net/jpg/02/97/24/51/360_F_297245133_gBPfK0h10UM3y7vfoEiBC3ZXt559KZar.jpg" alt="image" class="banner-section-image" />
+                </div>
+
+                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1 class="banner-section-heading mb-3">
+                        Hey, I am <span class="person-name">Venkatesh Shyamala</span>
+                    </h1>
+                    <p class="banner-section-description mb-3">
+                        I am a CCBPian , FullStack Web Developer Trainee With MERN Specialization.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about Me">
+        <div class="about-me-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  d-flex flex-column justify-content-center">
+                        <h1 class="about-me-section-heading mb-3">About me</h1>
+                        <p class="about-me-section-description">
+                            My Name is Venkatesh Shyamala, and I am currently looking for a job in Frontend Developer.I have a Core strengths include Coding, HTML, CSS, JavaScript, Python, SQL. I'm a quick learner and I have very good problem-solving skills.I Completed master's degree in computer science. People find me to be an upbeat, self-motivated team player with excellent communication skills.<br /><br />I am a dedicated person. I enjoy reading, and the knowledge and perspective that my reading gives me have strengthened my teaching skills and presentation abilities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-section pt-5 pb-5" id="Education">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="skills-section-sub-heading mb-3">
+                            Education :
+                        </h1>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-card text-center mb-3">
+                            <img src="https://assets-global.website-files.com/5fa61cbbf0d432b3230f62b1/5fc9d458b037d7586a65971c_Frame%20156.png" class="skills-card-image" />
+                            <h1 class="skills-card-title">CCBP Course<br>(MERN Stack)</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-card text-center mb-3">
+                            <img src="https://www.osmania.ac.in/images/slide1.jpg" class="skills-card-image" />
+                            <h1 class="skills-card-title">Master's<br>(Computer Science)</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-card text-center mb-3">
+                            <img src="https://mguniversity.ac.in/web/assets/img/uccbm.jpg" class="skills-card-image" />
+                            <h1 class="skills-card-title">Degree<br>(M.P.Cs)</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <div class="shadow skills-card text-center mb-3">
+                            <img src="https://www.mixindia.com/wp-content/uploads/2018/10/Junior-Baselios-English-Medium-School-Pampady.jpg" class="skills-card-image" />
+                            <h1 class="skills-card-title">Intermediate<br>(M.P.C)</h1>
+                        </div>
+                    </div>
+
+                    <div class="bg-container d-flex flex-column justify-content-center">
+                        <div class="container" id="Home">
+                            <div class="row">
+                                <div class="col-12 col-md-5 order-1 order-md-2">
+                                    <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg" alt="image" class="banner-section-image" />
+                                </div>
+
+                                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                                    <div class="education section second" id="experiences">
+                                        <div class="container">
+                                            <h1 class="Heading">Educational Instutions and Year Of Passing</h1>
+
+                                            <ul class="education-list">
+                                                <li>2022 - Present</li>
+                                                <li class="college-name"><a href="#">CCBP</a></li>
+                                                <li class="edu-sub-list">Full Stack Web Developer with MERN Specialization</li>
+                                            </ul>
+
+                                            <ul class="education-list">
+                                                <li>2018 - 2020</li>
+                                                <li class="college-name"><a href="#">Princeton Pg College</a></li>
+                                                <li class="edu-sub-list">Master's in Computer Science</li>
+                                            </ul>
+                                            <ul class="education-list">
+                                                <li>2012 - 2015</li>
+                                                <li class="college-name"><a href="#">SLNS Degree College</a></li>
+                                                <li class="edu-sub-list">Bachelor's degree in computer Science</li>
+                                            </ul>
+
+                                            <ul class="education-list">
+                                                <li>2010 - 2012</li>
+                                                <li class="college-name"><a href="#">Budha Poornima Jr College</a></li>
+                                                <li class="edu-sub-list">Inetrmediate- (MPC)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-section pt-5 pb-5" id="Technical Skills">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h1 class="skills-section-sub-heading mb-3">
+                                                Technical Skills :
+                                            </h1>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">HTML</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">CSS</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">Bootstrap</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1679979585/JavaScript-Logo_mavncp.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">JS</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://www.pragimtech.com/wp-content/uploads/2021/03/ReactJS.jpg" class="skills-card-image" />
+                                                <h1 class="skills-card-title">React JS</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://wallpapercave.com/wp/wp7133269.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">Python</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1679979462/nodejsmage_sx6y5l.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">Node Js</h1>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6 col-md-3">
+                                            <div class="shadow skills-card text-center mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1679979440/mysqlimage_ftzf5o.png" class="skills-card-image" />
+                                                <h1 class="skills-card-title">My Sql</h1>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="sectionProjects">
+                            <div class="projects-section pt-5 pb-5" id="PortFolio">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h1 class="projects-section-sub-heading mb-3">Portfolio</h1>
+                                            <h1 class="projects-section-heading">Projects I have done</h1>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="projects-card mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="projects-card-image" />
+                                                <div class="p-3">
+                                                    <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                                                    <h1 class="projects-card-title">Royal Grand Hotel</h1>
+                                                    <p class="projects-card-description">
+                                                        Royal Grand Hotel is a Simple Static Website. We can use this layout for building the other websites...
+                                                    </p>
+                                                    <a class="projects-card-link" href="https://vasuflats.ccbp.tech">
+                                                        Read More
+                                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="projects-card mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="projects-card-image" />
+                                                <div class="p-3">
+                                                    <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                                                    <h1 class="projects-card-title">Happy Meals</h1>
+                                                    <p class="projects-card-description">
+                                                        Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions...
+                                                    </p>
+                                                    <a class="projects-card-link" href="https://happymeals222.ccbp.tech">
+                                                        Read More
+                                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="projects-card mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1674446134/cld-sample-4.jpg" class="projects-card-image" />
+                                                <div class="p-3">
+                                                    <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                                                    <h1 class="projects-card-title">Food Munch</h1>
+                                                    <p class="projects-card-description">
+                                                        Food Munch is a Simple Responsive Website. We can use this layout for building the other websites for ordering the food...
+                                                    </p>
+                                                    <a class="projects-card-link" href="https://foodmunch222.ccbp.tech">
+                                                        Read More
+                                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="projects-card mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1679968863/2016-03-20-1458502057-7530036-ToDoList_sb87dr.jpg" class="projects-card-image" />
+                                                <div class="p-3">
+                                                    <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                                                    <h1 class="projects-card-title">Todo List</h1>
+                                                    <p class="projects-card-description">
+                                                        Todo List Application is helpful for daily activities. It help you get, and stay, on top of important projects and piles of tasks or decisions.
+                                                    </p>
+                                                    <a class="projects-card-link" href="https://todolist1111.ccbp.tech">
+                                                        Read More
+                                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6">
+                                            <div class="projects-card mb-3">
+                                                <img src="https://res.cloudinary.com/dpxhmldsk/image/upload/v1674446118/samples/landscapes/beach-boat.jpg" class="projects-card-image" />
+                                                <div class="p-3">
+                                                    <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                                                    <h1 class="projects-card-title">Tourism Website</h1>
+                                                    <p class="projects-card-description">
+                                                        Tourism is a Simple Dynamic Website. This helps the tourist to know about the places they want to visit.
+                                                    </p>
+                                                    <a class="projects-card-link" href="https://tourism222.ccbp.tech">
+                                                        Read More
+                                                        <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#cced00" xmlns="http://www.w3.org/2000/svg">
+                                                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                                        </svg>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="Services">
+                            <div class="services-section pt-5 pb-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h1 class="services-section-sub-heading mb-3">Services</h1>
+                                            <h1 class="services-section-heading mb-3">What I do</h1>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="shadow services-card mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="services-card-image" />
+                                                <h1 class="services-card-title mt-2">Static Websites</h1>
+                                                <p class="services-card-description">
+                                                    A Static Website contains Web pages with fixed content.
+                                                    Each page is developed using HTML and CSS and displays the same information to every visitor.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="services-card mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="services-card-image" />
+                                                <h1 class="services-card-title mt-2">Responsive Web design</h1>
+                                                <p class="services-card-description">
+                                                    Responsive Web design is the approach that suggests that design and development should respond to the user’s behaviour and environment based on screen size, platform and orientation.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-4">
+                                            <div class="shadow services-card mb-3">
+                                                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="services-card-image" />
+                                                <h1 class="services-card-title mt-2">Customisable Layouts</h1>
+                                                <p class="services-card-description">
+                                                    Customisable sites are templates with set layouts. You may be
+                                                    able to change photos and colors, but your site will look
+                                                    similar to many other sites due to the template. The same goes
+                                                    for...
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="website-work-done-section">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-4 text-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                                                <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                                            </svg>
+                                            <hr class="hr-line" />
+                                            <h1 class="work-done-card-title">10</h1>
+                                            <h1 class="work-done-card-sub-title">projects completed</h1>
+                                        </div>
+
+                                        <div class="col-4 text-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-card-text" viewBox="0 0 16 16">
+                                                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                                                <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z" />
+                                            </svg>
+                                            <hr class="hr-line" />
+                                            <h1 class="work-done-card-title">3,000</h1>
+                                            <h1 class="work-done-card-sub-title">Lines of code</h1>
+                                        </div>
+
+                                        <div class="col-4 text-center">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" fill="#ffffff" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                                            </svg>
+                                            <hr class="hr-line" />
+                                            <h1 class="work-done-card-title">16</h1>
+                                            <h1 class="work-done-card-sub-title">Hours Worked</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Testimonials-section pt-5 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12" id="Testimonials">
+                                        <h1 class="sub-title mr-4">Testimonials</h1>
+                                        <h1 class="main-title">Our Members Says</h1>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div id="carouselexampleindicators" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="testimonials-card text-center">
+                                                        <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1503060124/ocqdojo8nuvn11doqiz6.png" alt="..." />
+                                                        <p class="testimonials-card-description">
+                                                            Venkatesh Shyamala is one of the best hard-working developers, and it was a plesure working with him. Having him on the project certainly made everything run smoother
+                                                        </p>
+                                                        <p class="testimonials-card-person-name">
+                                                            -Rahul Attuluri, Founder of NXTWave
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <div class="testimonials-card text-center">
+                                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" class="testimonials-card-image" alt="..." />
+                                                        <p class="testimonials-card-description">
+                                                            Working with jenny was an excellent experiance. he is an incredibly talented developer and what makes him stand out his work ethic and steady approach.
+                                                        </P>
+                                                        <p class="testimonials-card-person-name">
+                                                            -Rakesh,co-developer in veriphy company
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <div class="testimonials-card text-center">
+                                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" class="testimonials-card-image" alt="..." />
+                                                        <p class="testimonials-card-description">
+                                                            I have worked with jenny on two complex projects,and in both cses,the projects are done in a timely fashion and delivered with excellent coustmer satisfaction.
+                                                        </P>
+                                                        <p class="testimonials-card-person-name">
+                                                            -Riya,co-founder of cocopay company
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mt-3 text-right">
+                                                <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-section pt-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-3 mb-3" id="Footer section">
+                                        <div class="d-flex flex-row">
+                                            <img src="https://t4.ftcdn.net/jpg/02/97/24/51/360_F_297245133_gBPfK0h10UM3y7vfoEiBC3ZXt559KZar.jpg" class="footer-section-image" />
+                                            <div class="ml-3">
+                                                <h1 class="footer-section-sub-heading">Venkatesh Shyamala</h1>
+                                                <p class="footer-section-text">Front End Developer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-3 mb-3">
+                                        <h1 class="footer-section-sub-heading">E-Mail</h1>
+                                        <div>
+                                            <i class="fas fa-envelope icon"></i>
+                                            <span class="footer-section-text">venkat.mai938@gmail.com</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-3 mb-3">
+                                        <h1 class="footer-section-sub-heading">Address</h1>
+                                        <div>
+                                            <i class="fas fa-map-marked-alt icon"></i>
+                                            <span class="footer-section-text">Hyderabad, Telangana, India.</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-3 mb-3">
+                                        <h1 class="footer-section-sub-heading">Linkedin profile.</h1>
+                                        <div>
+                                            <i class="fas fa-map-marked-alt icon"></i>
+                                            <span class="footer-section-text">Venkatesh Shyamala </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="footer-section-copyright-container">
+                                <i class="fa fa-copyright icon" aria-hidden="true"></i>
+                                <span class="footer-section-text">2023 by Venkatesh Shyamala. created with bootstrap.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
